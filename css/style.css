@@ -194,3 +194,22 @@ h1{
 .box2 .infoBox2{
     color: var(--colorSecundary);
 }/*Fin de estilos cuarta parte SERVICE*/
+
+/*Inicio de estilos quinta parte SERVICE*/
+.more{
+    text-align: center;
+    font-size: 1.7rem;
+    padding: 50px 180px;
+    align-items: center;
+}
+
+.boxMore{
+    background-color: var(--colorQuaternary);
+    padding: 5% 25%;
+}
+
+.more h2{
+    color: var(--colorTertiary);
+    font-size: 2.5rem;
+}/*Fin de estilos quinta parte SERVICE*/
+
