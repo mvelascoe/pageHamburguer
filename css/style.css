@@ -195,7 +195,7 @@ h1{
     color: var(--colorSecundary);
 }/*Fin de estilos cuarta parte SERVICE*/
 
-/*Inicio de estilos quinta parte SERVICE*/
+/*Inicio de estilos quinta parte MORE*/
 .more{
     text-align: center;
     font-size: 1.7rem;
@@ -211,5 +211,69 @@ h1{
 .more h2{
     color: var(--colorTertiary);
     font-size: 2.5rem;
-}/*Fin de estilos quinta parte SERVICE*/
+}/*Fin de estilos quinta parte MORE*/
 
+/*Inicio de estilos sexta parte CONTACT*/
+.contact{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 80px 180px;
+}
+
+.contact ul{
+    list-style: none;
+}
+
+.containerBox3{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box3{
+    margin: 50px 0px;
+    text-align: left;
+    padding: 70px;
+}
+
+.linkText{
+    color:var(--colorSecundary);
+}
+
+.linksMenu{
+    border: 1px solid var(--colorPrimary);
+    width: 50px;
+}
+
+.contact ul li p{
+    color: var(--colorSecundary);
+}
+
+.box3 i{
+    background-color:  var(--colorPrimary);
+    border-radius: 50%;
+    padding: 3px;
+    margin: 3px;
+}
+
+.contactenos {
+    list-style-type: none;
+    display: flex;
+    padding: 0;
+    margin: 0;
+}
+
+.contactenos li {
+    margin-right: 5px;
+}
+
+.box3 a:link,
+.box3 a:visited {
+    color:var(--colorSecundary); 
+    text-decoration: none; 
+}
+
+.box3 a:hover {
+    color:var(--colorPrimary);
+}/*Fin de estilos sexta parte CONTACT*/
