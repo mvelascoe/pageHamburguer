@@ -84,15 +84,16 @@ h1{
     justify-content: center;
     align-items: center;
     margin: 20px;
+    padding: 80px 180px;
 }
 .about div{
     padding: 50px 100px;
     font-size: 2rem;
 }
 
-.about .tituloA{
+.about .titulo{
     color: var(--colorPrimary);
-    font-weight: normal;
+    font-size: 2rem;
 }
 
 .about p{
@@ -112,3 +113,41 @@ h1{
 }/*Fin de estilos de la segunda parte ABOUT*/
 
 
+/*Inicio de estilos tercera parte FOODMENU*/
+
+.foodMenu{
+    text-align: center;
+    font-size: 1.4rem;
+    padding: 50px 150px;
+    align-items: center;
+}
+
+.containerBox1{
+    display: flex;
+    justify-content: space-around;
+}
+
+.foodMenu .titulo{
+    color: var(--colorPrimary);
+    font-size: 2rem;
+}
+
+.foodMenu h2{
+    color: var(--colorSecundary);
+    font-size: 2.5rem;
+}
+
+.box1{
+    background-color: var( --colorQuaternary);
+    text-align: center;
+    margin: 50px;
+    padding: 20px 30px;
+}
+
+.box1 .tituloBox{
+    font-size: 1.6rem;
+}
+.precioBox{
+    color:var(--colorPrimary);
+}
+/*Fin de estilos tercera parte FOODMENU*/
