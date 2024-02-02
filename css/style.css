@@ -1,6 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
 @import url("variables.css");
-@import url("media.css");
 
 /*Estilos generales*/
 *{
@@ -16,7 +15,7 @@ body{
     background-color: var(--colorBody);
 }
 
-.nav{
+.nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -33,76 +32,77 @@ body{
 
 .nav h2{
     color: var(--colorPrimary);
-    font-size: 2rem;
+    font-weight: 2rem;
 }
 
 h1{
-    color: var(--colorPrimary);
+    color: var( --colorPrimary);
+    font-size: 6rem; /* Diferente */
 }
 
 .menu a{
+    text-decoration: none;
     color: var(--colorSecundary);
     font-size: 1.3rem;
-    padding: 35px;
+    font-weight: bold;
+    padding: 0px 35px;
+    transition: 0.4s;
 }
 
 #home{
+    padding: 10px 80px;
     display: flex;
     justify-content: center;
-    align-items: center;
     margin: 20px;
-    padding: 10px 80px;
+    align-items: center;
 }
 
 #home div{
     margin: 50px;
     padding: 50px;
-    font-size: 2rem;
-}
-
-#home h1{
-    font-weight: 500;
+    font-size: 1.7rem;
 }
 
 #home p{
     color: var(--colorSecundary);
     margin-top: 20px;
+    font-weight: bold;
 }
 
 #home img{
-    max-width: 450px;
+    max-width: 500px;
     width: 100%;
     height: 100%;
 }
 
-.boton{
-    color: var(--colorSecundary);
-    background-color: var(--colorPrimary);
+.boton {
     display: inline-block;
+    text-decoration: none;
+    color: var(--colorSecundary);
     padding: 10px;
+    background-color: var(--colorPrimary);
+    transition: 0.4s;
     margin-top: 40px;
-    font-size: 1.5rem;
 }/*Fin de estilo de la primera parte HEADER Y HOME*/
-
 
 /*Inicio de estilos de la segunda parte ABOUT*/
 
-#about{
+#about, #contact{
     padding: 80px 180px;
     display: flex;
     justify-content: center;
     margin: 20px;
     align-items: center;
-    
-}
-#about div{
-    padding: 50px 100px;
-    font-size: 2rem;
 }
 
-#about .titulo{
-    color: var(--colorPrimary);
-    font-weight: normal;
+#about div{
+    padding: 50px 100px;
+    font-size: 1.7rem;
+}
+
+h2{
+    color: var(--colorSecundary);
+    font-weight: 500;
 }
 
 #about p{
@@ -110,24 +110,18 @@ h1{
     margin-top: 20px;
 }
 
-#about h2{
-    color: var(--colorSecundary);
-    font-size: 2.5rem;
-}
-
 #about img{
-    max-width: 450px;
+    max-width: 500px;
     width: 100%;
     height: 100%;
 }/*Fin de estilos de la segunda parte ABOUT*/
 
-
 /*Inicio de estilos tercera parte FOODMENU*/
 
-#foodMenu{
+#foodMenu, #service, #more{
     text-align: center;
-    font-size: 1.4rem;
-    padding: 50px 150px;
+    font-size: 1.7rem;
+    padding: 50px 180px;
     align-items: center;
 }
 
@@ -136,82 +130,70 @@ h1{
     justify-content: space-around;
 }
 
-#foodMenu .titulo{
-    color: var(--colorPrimary);
-    font-size: 2rem;
-}
-
-#foodMenu h2{
-    color: var(--colorSecundary);
-    font-size: 2.5rem;
-}
-
 .box1{
-    background-color: var( --colorQuaternary);
-    text-align: center;
     margin: 50px;
     padding: 20px 30px;
+    background-color: var(--colorQuaternary);
+    text-align: center;
+    position: relative;
 }
 
-.box1 .tituloBox{
-    font-size: 1.6rem;
+.tituloBox{
+    color: var(--colorTertiary);
+    font-size: 1.3rem;
+    font-weight: bold;
 }
+
 .precioBox{
-    color:var(--colorPrimary);
+    background-color: transparent;
+    color: var(--colorPrimary);
+    font-weight: bold;
 }
+
+#about h3, #foodMenu h3, #service h3{
+    color: var(--colorPrimary);
+    font-weight: normal;
+}
+
+#foodMenu div{
+    padding: 30px;
+    padding-top: 0;
+}
+
+#foodMenu img{
+    max-width: 500px;
+    width: 100%;
+}
+
 /*Fin de estilos tercera parte FOODMENU*/
 
 /*Inicio de estilos cuarta parte SERVICE*/
-#service{
-    text-align: center;
-    font-size: 1.4rem;
-    padding: 50px 150px;
-    align-items: center;
-}
-
-#service .titulo{
-    color: var(--colorPrimary);
-    font-size: 2rem;
-}
-
-#service h2{
-    color: var(--colorSecundary);
-    font-size: 2.5rem;
-}
-
 .containerBox2{
     display: flex;
     justify-content: space-around;
 }
 
 .box2{
+    margin: 50px 0px;
     text-align: center;
-    margin: 50px;
-    padding: 20px 30px;
 }
 
 #service img{
-    max-width: 200px;
-    width: 70%;
+    max-width: 250px;
+    width: 40%;
 }
 
-.box2 .tituloBox2{
-    font-size: 1.6rem;
+.tituloBox2{
     color: var(--colorPrimary);
+    font-weight: normal;
 }
 
-.box2 .infoBox2{
+.infoBox2{
     color: var(--colorSecundary);
+    font-size: 1.2rem;
 }/*Fin de estilos cuarta parte SERVICE*/
 
 /*Inicio de estilos quinta parte MORE*/
-#more{
-    text-align: center;
-    font-size: 1.7rem;
-    padding: 50px 180px;
-    align-items: center;
-}
-
 .boxMore{
     background-color: var(--colorQuaternary);
     padding: 5% 25%;
@@ -219,7 +201,6 @@ h1{
 
 #more h2{
     color: var(--colorTertiary);
-    font-size: 2.5rem;
 }/*Fin de estilos quinta parte MORE*/
 
 /*Inicio de estilos sexta parte CONTACT*/
@@ -241,9 +222,9 @@ h1{
 }
 
 .box3{
-    margin: 50px 0px;
+    margin: 50px 50px;
     text-align: left;
-    padding: 70px;
+    padding: 20px;
 }
 
 .linkText{
@@ -286,4 +267,3 @@ h1{
 .box3 a:hover {
     color:var(--colorPrimary);
 }/*Fin de estilos sexta parte CONTACT*/
-
