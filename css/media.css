@@ -1,4 +1,4 @@
-@media(max-width:992px){
+/* @media(max-width:992px){
 
 }
 
@@ -8,12 +8,12 @@
 
 @media(max-width:576px){
     
-}
+} */
 
 
 /*manu plegable*/
 
-@media screen and (max-width: 800px) {
+ @media screen and (max-width: 800px) {
     .navTarget{
         display: block;
     }
@@ -32,68 +32,48 @@
         clip-path: circle(0% at top right);
         transition: clip-path 0.6s;
     }
-    .nav h2 {
-        display: none; 
+    .menu:target{
+        clip-path: circle(150% at top right);
     }
-
-    .menu {
-        padding: 20px;
-        left: initial; 
-        right: 0;
-        position: relative;
-    }
-    
-
-    .menu a {
-        padding: 10px;
-        font-size: 1.5rem;
-    }
-
-    .menu:target {
-        clip-path: circle(150% at top left); 
-        opacity: 1;
-        pointer-events: auto;
-    }
-    .home h1{
+    #home h1{
         font-size: 3rem;
     }
-    .home div{
+    #home div{
         padding: 5px;
         margin: 0;
     }
-    .foodMenu a{
+    .menu a{
         display: block;
         padding: 20px;
     }
 
-    
-    .home{
+    #home{
         align-items: center;
         flex-direction: column;
         text-align: center;
     }
-    .about{
+    #about{
         align-items: center;
         padding: 5px;
         text-align: center;
         flex-direction: column-reverse;
-    
+
     }
-    .about h2{
+    #about h2{
         font-weight: 300;
     }
-    .about div{
+    #about div{
         padding: 5px;
     }
-    
-    .about p{
+
+    #about p{
         padding: 0;
         font-size: 20px;
     }
     .boton{
-        font-size: 20px;
+        font-size: 20x;
     }
-    .food, .service, .more, .contact{
+    #foodMenu,#service,#more,#contact{
         align-items: center;
         padding: 10px;
     }
@@ -104,15 +84,13 @@
         padding: 0;
         margin: 20px 50px;
     }
-    .more{
+    #more{
         margin: 10px;
     }
     .box3{
         margin: 0;
     }
-    .containerBox33{
+    .containerBox3{
         align-items: start;
     }
-}
-
-
+} 
